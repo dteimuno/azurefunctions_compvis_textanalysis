@@ -1,0 +1,1 @@
+# azurefunctions_compvis_textanalysis
