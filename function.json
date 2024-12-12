@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "name": "myblob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "luit-container/{name}",
+      "connection": "AzureWebJobsStorage"
+    },
+    {
+      "name": "blob",
+      "type": "blob",
+      "direction": "out",
+      "path": "luit-container/{name}",
+      "connection": "AzureWebJobsStorage"
+    }
+  ],
+  "scriptFile": "function_app.py"
+}
